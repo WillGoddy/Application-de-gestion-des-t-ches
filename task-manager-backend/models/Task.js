@@ -14,11 +14,11 @@ const taskSchema = new mongoose.Schema({
   deadline: Date,
   status: {
     type: String,
-    enum: ['en cours', 'terminée'], // Valeurs autorisées
+    enum: ['en cours', 'terminée'], 
     default: 'en cours',
   },
 }, {
-  timestamps: true // Ajoute createdAt et updatedAt automatiquement
+  timestamps: true 
 });
 
 module.exports = mongoose.model('Task', taskSchema);
