@@ -2,7 +2,7 @@ import React from 'react';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
 import Navbar from '../components/Navbar';
-import '../styles/Dashboard.css';  // fichier CSS associé
+import '../styles/Dashboard.css';
 
 const Dashboard = () => {
   const [refresh, setRefresh] = React.useState(false);
